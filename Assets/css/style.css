@@ -1,0 +1,53 @@
+:root {
+    --lb: #92cccd;
+    --dg: #4a4a4a;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    padding: 5px 0;
+    background-color: var(--dg);
+}
+
+.titles {
+    color: var(--dg);
+    background-color: var(--lb);
+    padding: 5px;
+}
+
+header h1 {
+    margin: 5px 0 5px 10px;
+    padding: .5% 1% .5% 0;
+    width: 400px;
+    text-align: right;
+}
+
+nav {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+nav a {
+  text-decoration: none; 
+}
+
+nav li {
+    display: inline;
+    padding-right: 5px;
+}
+
+img {
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+}
+
+main h2 {
+    position: absolute;
+    right: 20px;
+    top: 175px;
+}
