@@ -45,50 +45,53 @@ nav li {/*puts the list side by side and separates*/
     border-bottom: 2px solid var(--lb);
 }
 
-#mainImg {
+#mainImg {/*changes the size of the pic as you widen the window*/
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
 
-.overPic {
+.overPic {/*moves the healine on top of the pic*/
     position: absolute;
     font-size: 24px;
     right: 20px;
     top: 200px;
 }
 
-#AM
-,#Work
+#AM /* sets left panel width and headers to standard size*/
+,#Work 
 ,#Contact {
     width: 190px;
     text-align: right; 
     font-size: 42px;
     color: var(--dg);
+    /*puts headers inline with bar*/
+    margin: 5px 0 0 0;
 }
 
-section div, 
+section div, /*all content on right*/
 section p,
 section ul {
     padding: 10px;
     margin: 10px;
     border-style: solid;
+    /*moves content away from the bar*/
     border-width: 0 0 0 3px;
     border-color: var(--dg);
 }
 
-.container {
+.container {/* Used grid to make the structure of the page*/
     display: grid;
     grid-template-columns: 200px auto;
 }
 
-.workSec {
+.workSec {/* Nested grid */
     display: grid;
     grid-template-columns: 50% auto;
     gap: 18px;
 }
 
-figure {
+figure { /*gives a relative position for the absolute below to work with*/
     position: relative;
     margin: 0;
 }
@@ -109,7 +112,7 @@ figure img:hover {
     filter: grayscale(0%);
 }
 
-figcaption {
+figcaption {/*pops out the caption and moves it onto the image*/
     position: absolute;
     bottom: 13%;
     font-weight: bolder;
@@ -118,31 +121,30 @@ figcaption {
     font-size: 
 }
 
-figcaption h4{
+figcaption h4{/*smaller text under caption*/
     font-size: 12px;
     font-weight: normal;
     margin: 0;
 }
 
-.big {
+.big {/*Sets the first item to fill both columns*/
     grid-column: 1/3;
     width: 100%;
     /*This  sets the heigh to crop the bottom off the image*/
     height: 500px;
 }
 
-.small {
+.small { /*sets height of other pictures */
     height: 200px;
     margin: 0;
-    justify-items: stretch;
 }
 
-main ul { 
+main ul { /*Flexbox, set to rows, evenly divides space around each item and centers them*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
+    list-style: none;/*takes off the dot*/
 }
 
 main ul a{/*removes underline*/
