@@ -8,45 +8,45 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header{/*brings the header in from the left */
     padding: 5px 0;
     background-color: var(--dg);
 }
 
-.titles {
+.titles {/*standard for all titles*/
     color: var(--dg);
     background-color: var(--lb);
     padding: 5px;
 }
 
-header h1 {
+header h1 {/*Learnantino header */
     margin: 5px 0 5px 10px;
     padding: .5% 1% .5% 0;
     width: 225px;
     text-align: right;
 }
 
-nav ul{
+nav ul {/*pops out the list and puts it on the right at the top*/
     position: absolute; 
     top: 17px;
     right: 20px;
     font-weight: bolder;
 }
 
-nav a {
+nav a {/*removes hyperlink color and decoration */
     color: var(--lb);
-    text-decoration: none; 
-    text-align: center;
+    text-decoration: none;
 }
 
-nav li {
-    display: inline;
-    padding-right: 5px;
+nav li {/*puts the list side by side and separates*/
+    display: inline; 
+    /*padding adds length to the bottom border*/
+    padding: 0 10px 5px 10px;
     border-bottom: 2px solid var(--lb);
 }
 
 #mainImg {
-    height: 175px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
 }
@@ -55,7 +55,7 @@ nav li {
     position: absolute;
     font-size: 24px;
     right: 20px;
-    top: 175px;
+    top: 200px;
 }
 
 #AM
@@ -119,6 +119,7 @@ figcaption {
 }
 
 figcaption h4{
+    font-size: 12px;
     font-weight: normal;
     margin: 0;
 }
@@ -140,17 +141,18 @@ main ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
 }
 
-main ul a{
+main ul a{/*removes underline*/
     text-decoration: none;
-
 }
 
-main li {
+main li {/*adds a bottom border*/
     color: var(--dg);
     font-weight: bolder;
-    line-height: 125px;
-    padding: 0 20px;   
+    padding: 0 5px 10px 5px;  
+    border-bottom: 2px solid var(--dg); 
+    text-align: center;
 }
