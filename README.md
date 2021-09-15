@@ -6,7 +6,7 @@
 * [Github repo](https://github.com/MJGRiley/2-Portfolio)
 * [Github pages](https://MJGRiley.github.io/2-Portfolio/)
 
-Image given:
+Mockup given:
 ![Image](./Assets/Images/HW2PicStitched.jpg)
-Mockup:
+My Thumbnail:
 ![Image](Assets/Images/Mockup.png)
